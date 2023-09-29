@@ -6,9 +6,11 @@ https://veracode-my.sharepoint.com/:w:/p/cdalomba/EX7TGt30zhhDurN2tgw1mhYB8hJwVD
 # Quick Demo
 
 # Set aliases
-alias veracode="~/veracode"git
-alias sast="veracode static scan"
-alias cleardemo="git stash;rm SQLvulnerability.class;rm results.json"
+    alias veracode="~/veracode"git
+    
+    alias sast="veracode static scan"
+    
+    alias cleardemo="git stash;rm SQLvulnerability.class;rm results.json"
 
 ## Compile
 
