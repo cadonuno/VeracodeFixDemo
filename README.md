@@ -8,7 +8,7 @@ javac -g SQLvulnerability.java
 
 ## Run SAST
 
-sast SQLvulnerability.class --results-file results.json
+veracode static scan SQLvulnerability.class
 
 ## Run fix
 
@@ -16,7 +16,7 @@ veracode fix SQLvulnerability.java
 
 ## Select the SQL Injection (CWE 89) finding
 
-1000
+1
 
 ## Recompile
 
@@ -24,8 +24,8 @@ javac -g SQLvulnerability.java
 
 ## Run SAST on new class file
 
-sast SQLvulnerability.class --results-file results.json
+veracode static scan SQLvulnerability.class
 
 ## Reset the demo (restore the source file)
 
-cleardemo
+git reset --hard
